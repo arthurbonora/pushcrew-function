@@ -1,3 +1,4 @@
+<?php
 function push($title, $message, $url) {
     $apiToken = 'YOUR TOKEN HERE, SEU TOKEN AQUI';
     $curlUrl = 'https://pushcrew.com/api/v1/send/all';
@@ -29,3 +30,4 @@ function push($title, $message, $url) {
         //failure
     }
 }
+?>
